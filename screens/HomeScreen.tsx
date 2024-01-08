@@ -13,7 +13,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity
-        onPress={() => navigation.navigate("Quiz")}
+        onPress={() => navigation.navigate("NameInput")}
         style={styles.button}
       >
         <Text style={styles.buttonText}>Start</Text>
